@@ -1,0 +1,146 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: "Segoe UI", sans-serif;
+}
+
+body {
+    height: 100vh;
+    background: linear-gradient(135deg, #f4f7ff, #eaf0ff);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+/* Container */
+.container {
+    width: 100%;
+    max-width: 420px;
+    padding: 20px;
+}
+
+/* Card */
+.card {
+    background: #ffffff;
+    padding: 35px 30px;
+    border-radius: 14px;
+    box-shadow: 0 15px 35px rgba(0,0,0,0.12);
+    text-align: center;
+}
+
+/* Forms */
+.form {
+    display: none;
+}
+
+.active-form {
+    display: block;
+}
+
+/* Headings */
+.form h2 {
+    margin-bottom: 10px;
+    color: #222;
+    font-family: 'Poppins', sans-serif;
+    font-weight: 750;
+    letter-spacing: 0.5px;
+}
+
+
+.subtitle {
+    font-size: 20px;
+    color: #777;
+    margin-bottom: 15px;
+}
+
+/* Input Group */
+.input-group {
+    position: relative;
+    margin-bottom: 15px;
+}
+
+.input-group i {
+    position: absolute;
+    top: 50%;
+    left: 12px;
+    transform: translateY(-50%);
+    color: #888;
+}
+
+.input-group input {
+    width: 100%;
+    padding: 12px 40px;
+    border: 1px solid #ccc;
+    border-radius: 8px;
+    font-size: 15px;
+    outline: none;
+    transition: 0.3s;
+}
+
+.input-group input:focus {
+    border-color: #5a7cff;
+    box-shadow: 0 0 5px rgba(90,124,255,0.4);
+}
+
+/* Eye Icon */
+.toggle-password {
+    position: absolute;
+    top: 50%;
+    right: 8px;
+    transform: translateY(-50%);
+    cursor: pointer;
+    color: #888;
+}
+
+.toggle-password:hover {
+    color: #5a7cff;
+}
+
+/* Main Button */
+.main-btn {
+    width: 100%;
+    padding: 12px;
+    border: none;
+    border-radius: 8px;
+    background: #5a7cff;
+    color: #ffffff;
+    font-size: 16px;
+    cursor: pointer;
+    margin-top: 10px;
+    transition: 0.3s;
+}
+
+.main-btn:hover {
+    background: #4a6ae0;
+}
+
+/* Message */
+.message {
+    margin-top: 12px;
+    font-size: 14px;
+}
+
+/* Switch Text */
+.switch-text {
+    margin-top: 15px;
+    font-size: 14px;
+    color: #555;
+}
+
+.switch-text span {
+    color: #5a7cff;
+    cursor: pointer;
+    font-weight: 600;
+}
+
+.switch-text span:hover {
+    text-decoration: underline;
+}
+
+/* Responsive */
+@media (max-width: 480px) {
+    .card {
+        padding: 25px 20px;
+    }
+}

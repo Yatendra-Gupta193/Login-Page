@@ -1,0 +1,81 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Login & Sign Up</title>
+
+    <!-- Icons -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.0/css/all.min.css">
+
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+    <div class="container">
+        <div class="card">
+
+            <!-- LOGIN FORM -->
+            <form id="loginForm" class="form active-form">
+                <h2>Welcome Back</h2>
+                <p class="subtitle">Login to continue</p>
+
+                <div class="input-group">
+                    <i class="fa fa-user"></i>
+                    <input type="text" id="loginUsername" placeholder="Username">
+                </div>
+
+                <div class="input-group">
+                    <i class="fa fa-lock"></i>
+                    <input type="password" id="loginPassword" placeholder="Password">
+                    <span class="toggle-password" id="toggleLoginPassword">
+                        <i class="fa fa-eye"></i>
+                    </span>
+                </div>
+
+                <button type="submit" class="main-btn">Login</button>
+                <p id="loginMessage" class="message"></p>
+
+                <p class="switch-text">
+                    Don’t have an account?
+                    <span id="showSignup">Sign Up</span>
+                </p>
+            </form>
+
+            <!-- SIGN UP FORM -->
+            <form id="signupForm" class="form">
+                <h2>Create Account</h2>
+                <p class="subtitle">Sign up to get started</p>
+
+                <div class="input-group">
+                    <i class="fa fa-user"></i>
+                    <input type="text" id="signupUsername" placeholder="Username">
+                </div>
+
+                <div class="input-group">
+                    <i class="fa fa-envelope"></i>
+                    <input type="email" id="signupEmail" placeholder="Email">
+                </div>
+
+                <div class="input-group">
+                    <i class="fa fa-lock"></i>
+                    <input type="password" id="signupPassword" placeholder="Password">
+                    <span class="toggle-password" id="toggleSignupPassword">
+                        <i class="fa fa-eye"></i>
+                    </span>
+                </div>
+
+                <button type="submit" class="main-btn">Sign Up</button>
+                <p id="signupMessage" class="message"></p>
+
+                <p class="switch-text">
+                    Already have an account?
+                    <span id="showLogin">Login</span>
+                </p>
+            </form>
+
+        </div>
+    </div>
+
+    <script src="script.js"></script>
+</body>
+</html>
