@@ -1,11 +1,33 @@
-# Login Page
+#  Login Page
 
-This project is a simple, clean, and responsive Login & Sign Up web interface built using HTML, CSS, and JavaScript. 
-It is designed for beginners who want to understand how authentication UI works on the frontend without using any backend or database. 
-The page includes user-friendly input fields, client-side validation, and strong password rules to ensure better form handling.
+A Simple, clean, and responsive Login & Sign Up web interface built using **HTML, CSS, and JavaScript**. 
 
-The project also features a show/hide password option, instant validation messages, and a modern light-themed design that works well on both desktop and mobile devices. 
-Users can easily switch between the Login and Sign Up forms on the same page.
+## ✨ Features
+- Modern centered card design
+- Username, Email & Password fields
+- Show/Hide password toggle
+- Smooth button styling
+- Responsive layout
 
-it is just ideal for practice, learning web fundamentals, and showcasing basic frontend skills. 
-It can later be extended with backend technologies such as Node.js, databases, or authentication systems to create a complete login solution.
+## 🛠️ Technologies Used
+- HTML5
+- CSS3
+- JavaScript
+
+## 📸 Preview
+
+![Login Page Preview](image.png)
+
+## 📂 Project Structure
+- index.html
+- style.css
+- script.js
+- image.png
+
+## 🚀 How to Use
+1. Clone the repository
+2. Open index.html in your browser
+
+---
+
+Made with ❤️ by Yatendra Gupta
